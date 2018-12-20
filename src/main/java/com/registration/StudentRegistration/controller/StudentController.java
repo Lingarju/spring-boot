@@ -16,7 +16,7 @@ import com.registration.StudentRegistration.repository.StudentRepository;
 @RequestMapping(path="/student")
 public class StudentController {
 	
-	// autowiring student repository
+	// autowiring student r    epository
 	@Autowired
 	StudentRepository studentRepository;
 	
